@@ -16,10 +16,33 @@
   <!-- add to homescreen for ios -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCfkMrSmWcPAbaaruNeRWS_RzSl5joIBw0",
+      authDomain: "prueba1-2fb6b.firebaseapp.com",
+      databaseURL: "https://prueba1-2fb6b.firebaseio.com",
+      projectId: "prueba1-2fb6b",
+      storageBucket: "prueba1-2fb6b.appspot.com",
+      messagingSenderId: "322059253182",
+      appId: "1:322059253182:web:9e4413e09c4838611df5ef"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 </head>
 
 <body>
   <app-root></app-root>
+ 
 </body>
+
 
 </html>
